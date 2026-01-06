@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation - Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2f52b3;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        .order-details {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+            border-radius: 6px;
+        }
+
+        .button {
+            margin-top: 30px;
+            padding: 12px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You for Your Order!</h1>
+        <p>Your order has been successfully placed.</p>
+        <p>We’ve sent a confirmation email to your inbox. Please check it for your receipt and order details.</p>
+
+        <div class="order-details">
+            <h3>Order Summary:</h3>
+            <p><strong>Book Name:</strong> Example Book</p>
+            <p><strong>Quantity:</strong> 1</p>
+            <p><strong>Total Amount:</strong> $20.00</p>
+            <p><strong>Shipping Address:</strong> 123 Example Street, City, Country</p>
+        </div>
+
+        <a href="index.html" class="button">Back to Home</a>
+    </div>
+</body>
+</html>

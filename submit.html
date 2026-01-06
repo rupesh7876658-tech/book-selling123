@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store Order Submit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .note {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Confirm Your Order</h2>
+        <p>Please review your order details carefully before submitting. Once you click "Submit Order," your purchase will be processed.</p>
+        
+        <form action="#" method="post">
+            <!-- You can include hidden fields for order info -->
+            <input type="hidden" name="book" value="Example Book">
+            <input type="hidden" name="price" value="20.00">
+            <input type="hidden" name="quantity" value="1">
+            <input type="hidden" name="customerName" value="John Doe">
+            <input type="hidden" name="customerEmail" value="john@example.com">
+
+            <button type="submit">Submit Order</button>
+            <p class="note">*This is a demo. Real payment processing requires a backend or payment gateway integration.</p>
+        </form>
+    </div>
+</body>
+</html>
